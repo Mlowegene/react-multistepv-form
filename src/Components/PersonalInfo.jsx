@@ -35,7 +35,40 @@ function PersonalInfo() {
             </div>
           </div>
         </div>
-        <div></div>
+        <div className="content">
+          <div>
+            <h1>Personal info</h1>
+            <p className="description">
+              Please provide your name, email address, and phone number
+            </p>
+          </div>
+          <div className="form">
+            <label htmlFor="name">Name</label>
+            <input
+              className="form-field"
+              type="text"
+              id="name"
+              placeholder="e.g. Stephen king"
+            />
+            <label htmlFor="email">Email Address</label>
+            <input
+              className="form-field"
+              type="email"
+              id="email"
+              placeholder="e.g. stephenking@lorem.com"
+            />
+            <label htmlFor="name">Phone Number</label>
+            <input
+              className="form-field"
+              type="text"
+              id="name"
+              placeholder="e.g. +1 234 567 890"
+            />
+          </div>
+          <div className="button-field">
+            <button>Next Step</button>
+          </div>
+        </div>
       </main>
     </div>
   );
